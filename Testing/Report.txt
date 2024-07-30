@@ -1,0 +1,209 @@
+### Current timestamp: 2023-12-06 14:12:14
+
+### Init the db
+Database and Tables created!
+
+### Delete the tables
+Tables truncated successfully
+
+### Register admin
+{"message":"User registered successfully"}
+
+### Register a user
+{"message":"User registered successfully"}
+
+### Get all users
+
+"users":[
+"id":1,"username":"admin","password":"$2b$10$PCPM3bAJkKBp62NnNdCVj.cShC4k3no.qxQI.YaCzmGppRARRH1ty","name":"Admin"}
+
+"id":2,"username":"TestUser","password":"$2b$10$21PGsmSSjqW9V5Z7AlB06es.QgAorJL/II9aeRWbR0S0wF0vGgmdi","name":"TestUser"}
+
+
+### Login
+{"message":"Login successful"}
+
+### Create a channel
+New channel inserted
+
+### Get all channels
+
+"channels":[
+"id":1,"channel_name":"Testchannel"}
+
+
+### Create a post
+New post inserted
+
+### Create a second post
+New post inserted
+
+### Create a third post
+New post inserted
+
+### Create a fourth post reply to the first
+New post inserted
+
+### Create a fifth post reply to the second
+New post inserted
+
+### Create a sixth post reply to the third
+New post inserted
+
+### Get all posts
+
+"posts":[
+"id":1,"channel_id":1,"parent_id":null,"data":"Test post 1","image":"public/testimage.png"}
+
+"id":2,"channel_id":1,"parent_id":null,"data":"Test post 2","image":"public/testimage1.png"}
+
+"id":3,"channel_id":1,"parent_id":null,"data":"Test post 3","image":"public/testimage2.png"}
+
+"id":4,"channel_id":1,"parent_id":1,"data":"Test post 4 child of post 1","image":"public/testimage3.png"}
+
+"id":5,"channel_id":1,"parent_id":2,"data":"Test post 5 child of post 2","image":"public/testimage4.png"}
+
+"id":6,"channel_id":1,"parent_id":3,"data":"Test post 6 child of post 3","image":"public/testimage5.png"}
+
+
+### Test for the admin. Create a channel, user, and post
+
+
+### Create a channel
+
+
+New channel inserted
+
+### Create a user
+
+
+{"message":"User registered successfully"}
+
+### Create a post
+
+
+New post inserted
+
+### Show the channel, user, and post exists
+
+
+### Get all users
+
+
+
+"users":[
+"id":1,"username":"admin","password":"$2b$10$PCPM3bAJkKBp62NnNdCVj.cShC4k3no.qxQI.YaCzmGppRARRH1ty","name":"Admin"}
+
+"id":2,"username":"TestUser","password":"$2b$10$21PGsmSSjqW9V5Z7AlB06es.QgAorJL/II9aeRWbR0S0wF0vGgmdi","name":"TestUser"}
+
+"id":3,"username":"TestUser2","password":"$2b$10$MDUSdOkdtZ0lItEPhsigJ.N95TsbNqAnnwN9uRfjkPc38g0M9qr4a","name":"TestUser2"}
+
+
+
+
+### Get all channels
+
+
+
+"channels":[
+"id":1,"channel_name":"Testchannel"}
+
+"id":2,"channel_name":"Testchannel2"}
+
+
+
+
+### Get all posts
+
+
+
+"posts":[
+"id":1,"channel_id":1,"parent_id":null,"data":"Test post 1","image":"public/testimage.png"}
+
+"id":2,"channel_id":1,"parent_id":null,"data":"Test post 2","image":"public/testimage1.png"}
+
+"id":3,"channel_id":1,"parent_id":null,"data":"Test post 3","image":"public/testimage2.png"}
+
+"id":4,"channel_id":1,"parent_id":1,"data":"Test post 4 child of post 1","image":"public/testimage3.png"}
+
+"id":5,"channel_id":1,"parent_id":2,"data":"Test post 5 child of post 2","image":"public/testimage4.png"}
+
+"id":6,"channel_id":1,"parent_id":3,"data":"Test post 6 child of post 3","image":"public/testimage5.png"}
+
+"id":7,"channel_id":2,"parent_id":null,"data":"Test post 7","image":"public/testimage.png"}
+
+
+
+
+### Login
+
+
+{"message":"Login successful"}
+
+
+
+### Delete the channel, user, and post
+
+
+### Delete the channel
+
+
+Channel removed
+
+### Delete the user
+
+
+User removed
+
+### Delete the post
+
+
+Post removed
+
+### Show that the channel, user, and post have been deleted
+
+
+### Get all users
+
+
+
+"users":[
+"id":1,"username":"admin","password":"$2b$10$PCPM3bAJkKBp62NnNdCVj.cShC4k3no.qxQI.YaCzmGppRARRH1ty","name":"Admin"}
+
+"id":2,"username":"TestUser","password":"$2b$10$21PGsmSSjqW9V5Z7AlB06es.QgAorJL/II9aeRWbR0S0wF0vGgmdi","name":"TestUser"}
+
+
+
+
+### Get all channels
+
+
+
+"channels":[
+"id":1,"channel_name":"Testchannel"}
+
+
+
+
+### Get all posts
+
+
+
+"posts":[
+"id":1,"channel_id":1,"parent_id":null,"data":"Test post 1","image":"public/testimage.png"}
+
+"id":2,"channel_id":1,"parent_id":null,"data":"Test post 2","image":"public/testimage1.png"}
+
+"id":3,"channel_id":1,"parent_id":null,"data":"Test post 3","image":"public/testimage2.png"}
+
+"id":4,"channel_id":1,"parent_id":1,"data":"Test post 4 child of post 1","image":"public/testimage3.png"}
+
+"id":5,"channel_id":1,"parent_id":2,"data":"Test post 5 child of post 2","image":"public/testimage4.png"}
+
+"id":6,"channel_id":1,"parent_id":3,"data":"Test post 6 child of post 3","image":"public/testimage5.png"}
+
+
+
+
+### Current timestamp: 2023-12-06 14:12:14
+
