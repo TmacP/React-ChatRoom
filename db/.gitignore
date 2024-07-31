@@ -21,3 +21,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+
+auto.cnf
+ib_buffer_pool
+ib_logfile0
+ibdata1
+ibtmp1
